@@ -1,0 +1,22 @@
+{
+    "id": "fe6fa935-c4b2-4241-a1f4-aa0475d2d1b6",
+    "author": "",
+    "widgets": [
+        {
+            "id": "qr_widgets",
+            "name": "qr_widgets",
+            "description": "A sample widget",
+            "icon": "",
+            "tags":[]
+        }
+    ],
+    "sidebarLinks": [
+        
+    ],
+    "uis": [
+       
+    ],
+    "menuItems": [
+        
+    ]
+}

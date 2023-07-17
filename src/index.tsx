@@ -1,19 +1,25 @@
-import * as React from "react";
+import React, { useEffect, useState, useRef } from 'react';
 import { registerWidget, registerLink, registerUI, IContextProvider, } from './uxp';
 import { TitleBar, FilterPanel, WidgetWrapper } from "uxp/components";
 import './styles.scss';
 
-import CanvasComponent from './canvasComponent';
+import TextCanvasComponent from './canvasComponent';
+
+
+  
 
 interface IWidgetProps {
     uxpContext?: IContextProvider,
     instanceId?: string
 }
 
-const Qr_widgetsWidget: React.FunctionComponent<IWidgetProps> = (props) => {
+const Qr_widgetsWidget: React.FunctionComponent<IWidgetProps> = (props) => { 
+      
     return (
         <WidgetWrapper>  
-            <CanvasComponent /> 
+
+             <TextCanvasComponent/>   
+
         </WidgetWrapper>
     )
 };
@@ -28,10 +34,10 @@ registerWidget({
     widget: Qr_widgetsWidget,
     configs: {
         layout: {
-            // w: 12,
-            // h: 12,
-            // minH: 12,
-            // minW: 12
+            w: 16,
+            h: 12,
+            minH: 12,
+            minW: 12
         }
     }
 });

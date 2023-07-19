@@ -533,7 +533,7 @@ if ($defineProperty) {
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".canvas_widget {\n  display: flex;\n  width: 100%;\n}\n.canvas_widget .canvas_widget-lft {\n  display: inline-block;\n  width: 40%;\n}\n.canvas_widget .canvas_widget-lft .input-content {\n  display: inline-block;\n  width: 100%;\n}\n.canvas_widget .canvas_widget-lft .input-content ul {\n  display: inline-block;\n  width: 100%;\n}\n.canvas_widget .canvas_widget-lft .input-content ul li {\n  display: inline-block;\n  width: 100%;\n  list-style: none;\n  margin-top: 2em;\n}\n.canvas_widget .canvas_widget-lft .input-content ul li label {\n  font-size: 1em;\n  color: #424242;\n  display: inline-block;\n  width: 100%;\n  font-family: Comic Sans MS;\n}\n.canvas_widget .canvas_widget-lft .input-content ul li input {\n  border: 1px solid #424242;\n  background: transparent;\n  outline: none;\n  padding: 10px 10px;\n  border-radius: 5px;\n  width: 100%;\n}\n.canvas_widget .canvas_widget-rgt {\n  display: inline-block;\n  width: 52%;\n  margin-left: 5%;\n}\n.canvas_widget .canvas_widget-rgt #canvas {\n  background-color: #2aa3f9;\n  color: #fff;\n  width: 100%;\n  height: 100%;\n  border-radius: 10px;\n  padding: 20px;\n  box-sizing: border-box;\n  position: relative;\n  margin-top: 3em;\n}\n.canvas_widget .canvas_bottom {\n  display: flex;\n  width: auto;\n  position: absolute;\n  bottom: 3em;\n  left: 50%;\n  transform: translateX(-50%);\n}\n.canvas_widget .canvas_bottom button {\n  display: inline-block;\n  background: #2aa3f9;\n  border: transparent;\n  padding: 12px 15px;\n  border-radius: 10px;\n  color: #fff;\n  font-size: 1.1em;\n}\n.canvas_widget .canvas_bottom button.download-canvas-img {\n  display: inline-block;\n}\n.canvas_widget .canvas_bottom button.download-canvas-pdf {\n  margin-left: 1em;\n}", ""]);
+exports.push([module.i, ".canvas_widget {\n  display: flex;\n  width: 100%;\n}\n.canvas_widget .canvas_widget-lft {\n  display: inline-block;\n  width: 40%;\n}\n.canvas_widget .canvas_widget-lft .input-content {\n  display: inline-block;\n  width: 100%;\n}\n.canvas_widget .canvas_widget-lft .input-content ul {\n  display: inline-block;\n  width: 100%;\n}\n.canvas_widget .canvas_widget-lft .input-content ul li {\n  display: inline-block;\n  width: 100%;\n  list-style: none;\n  margin-top: 2em;\n}\n.canvas_widget .canvas_widget-lft .input-content ul li label {\n  font-size: 1em;\n  color: #424242;\n  display: inline-block;\n  width: 100%;\n  font-family: Comic Sans MS;\n}\n.canvas_widget .canvas_widget-lft .input-content ul li input {\n  border: 1px solid #424242;\n  background: transparent;\n  outline: none;\n  padding: 10px 10px;\n  border-radius: 5px;\n  width: 100%;\n}\n.canvas_widget .canvas_widget-rgt {\n  display: inline-block;\n  width: 52%;\n  margin-left: 5%;\n}\n.canvas_widget .canvas_widget-rgt #canvas {\n  background-color: #2aa3f9;\n  color: #fff;\n  width: 100%;\n  height: 90%;\n  border-radius: 10px;\n  padding: 20px;\n  box-sizing: border-box;\n  position: relative;\n  margin-top: 3em;\n  display: flex;\n}\n.canvas_widget .canvas_widget-rgt #canvas .canvas-lft {\n  display: inline-block;\n  width: 50%;\n  margin-top: 20%;\n  padding: 0;\n  margin: 24% 0 0 0;\n}\n.canvas_widget .canvas_widget-rgt #canvas .canvas-lft h3 {\n  display: inline-block;\n  width: 100%;\n  font-size: 1.5em;\n  color: #fff;\n  font-family: Comic Sans MS;\n}\n.canvas_widget .canvas_widget-rgt #canvas .canvas-lft p {\n  display: inline-block;\n  width: 100%;\n  font-size: 1em;\n  color: #fff;\n  font-family: Comic Sans MS;\n  padding: 0;\n  margin: 0;\n}\n.canvas_widget .canvas_widget-rgt #canvas .canvas-rgt {\n  display: inline-block;\n  width: 50%;\n}\n.canvas_widget .canvas_widget-rgt #canvas .canvas-rgt .qr_pict {\n  display: inline-block;\n  width: 100%;\n  height: 15em;\n  background: #ffffff;\n  border-radius: 12px;\n  padding: 10px 10px 10px 10px;\n  box-sizing: border-box;\n  background-image: url(https://static.iviva.com/images/QR-code.svg);\n  background-position: center center;\n  background-repeat: no-repeat;\n  background-size: 90% auto;\n}\n.canvas_widget .canvas_widget-rgt #canvas .canvas-rgt .qr_pict img {\n  width: max-content;\n  height: max-content;\n  max-width: 100%;\n  max-height: 100%;\n}\n.canvas_widget .canvas_widget-rgt #canvas .canvas-rgt .mobile_scan {\n  display: inline-flex;\n  width: 100%;\n  margin-top: 1em;\n}\n.canvas_widget .canvas_widget-rgt #canvas .canvas-rgt .mobile_scan img {\n  width: max-content;\n  height: max-content;\n  max-width: 100%;\n  max-height: 100%;\n}\n.canvas_widget .canvas_bottom {\n  display: flex;\n  width: auto;\n  position: absolute;\n  bottom: 3em;\n  left: 50%;\n  transform: translateX(-50%);\n}\n.canvas_widget .canvas_bottom button {\n  display: inline-block;\n  background: #2aa3f9;\n  border: transparent;\n  padding: 12px 15px;\n  border-radius: 10px;\n  color: #fff;\n  font-size: 1.1em;\n}\n.canvas_widget .canvas_bottom button.download-canvas-img {\n  display: inline-block;\n}\n.canvas_widget .canvas_bottom button.download-canvas-pdf {\n  margin-left: 1em;\n}", ""]);
 // Exports
 module.exports = exports;
 
@@ -22048,103 +22048,20 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const react_1 = __importStar(__webpack_require__(/*! react */ "react"));
 const jspdf_1 = __importDefault(__webpack_require__(/*! jspdf */ "./node_modules/jspdf/dist/jspdf.es.min.js"));
 const html2canvas_1 = __importDefault(__webpack_require__(/*! html2canvas */ "./node_modules/html2canvas/dist/html2canvas.js"));
-const TextCanvasComponent = () => {
-    const canvasRef = react_1.useRef(null);
-    const inputRef1 = react_1.useRef(null);
-    const inputRef2 = react_1.useRef(null);
+const textBoxComponent_1 = __importDefault(__webpack_require__(/*! ./textBoxComponent */ "./src/textBoxComponent.tsx"));
+const CanvasComponent = ({ showDownloadButtons }) => {
     const containerRef = react_1.useRef(null);
-    react_1.useEffect(() => {
-        const canvas = canvasRef.current;
-        const context = canvas.getContext('2d');
-        const context1 = canvas.getContext('2d');
-        const customFont = new FontFace('CustomFont', 'url(../fonts/nunito-regular-webfont.woff2)');
-        const drawFirstLabel = (text, x, y) => {
-            const fontFamily = 'CustomFont';
-            const fontSize = '1.5em';
-            context.font = `${fontSize} ${fontFamily}`;
-            context.fillStyle = 'White';
-            context.fillText(text, 10, 30);
-        };
-        const drawSecondLabel = (text, x, y) => {
-            // context.font = '1em Arial';
-            context.fillStyle = 'White';
-            const fontFamily = 'CustomFont';
-            const fontSize = '1em';
-            context.font = `${fontSize} ${fontFamily}`;
-            context.fillText(text, 20, 60);
-        };
-        const clearText = (x, y, width, height) => {
-            context.clearRect(x, y, width, height);
-        };
-        const handleInputChange = () => {
-            const inputText1 = inputRef1.current.value;
-            const inputText2 = inputRef2.current.value;
-            clearText(0, 30 - 20, context.measureText(inputText1).width, 30);
-            clearText(0, 60 - 20, context.measureText(inputText2).width, 30);
-            if (inputText1 === '') {
-                clearText(0, 30 - 20, context.measureText('placeholder').width, 30);
-            }
-            else {
-                drawFirstLabel(inputText1, 0, 30);
-            }
-            if (inputText2 === '') {
-                clearText(0, 60 - 20, context.measureText('placeholder').width, 30);
-            }
-            else {
-                drawSecondLabel(inputText2, 0, 60);
-            }
-        };
-        context.fillStyle = 'white';
-        const borderRadius = 10;
-        const rectX = 180;
-        const rectY = 12;
-        const rectWidth = 120;
-        const rectHeight = 90;
-        context.beginPath();
-        context.moveTo(rectX + borderRadius, rectY);
-        context.lineTo(rectX + rectWidth - borderRadius, rectY);
-        context.arcTo(rectX + rectWidth, rectY, rectX + rectWidth, rectY + borderRadius, borderRadius);
-        context.lineTo(rectX + rectWidth, rectY + rectHeight - borderRadius);
-        context.arcTo(rectX + rectWidth, rectY + rectHeight, rectX + rectWidth - borderRadius, rectY + rectHeight, borderRadius);
-        context.lineTo(rectX + borderRadius, rectY + rectHeight);
-        context.arcTo(rectX, rectY + rectHeight, rectX, rectY + rectHeight - borderRadius, borderRadius);
-        context.lineTo(rectX, rectY + borderRadius);
-        context.arcTo(rectX, rectY, rectX + borderRadius, rectY, borderRadius);
-        context.closePath();
-        context.fill();
-        const qr_img = new Image();
-        qr_img.src = "https://static.iviva.com/images/QR-code.svg";
-        qr_img.onload = () => {
-            context.drawImage(qr_img, 190, 20, 100, 75);
-        };
-        const scan_lucy_mobile = new Image();
-        scan_lucy_mobile.src =
-            "https://static.iviva.com./images/Udhayimages/Lucy_home_new/Lucy-icon.svg";
-        scan_lucy_mobile.onload = () => {
-            const context1 = canvas.getContext("2d");
-            context1.drawImage(scan_lucy_mobile, 175, 112, 70, 25);
-        };
-        // context1.font = "9px Comic Sans MS";
-        // context1.fillStyle = "black";
-        // context1.fillText("Scan with Lucy Mobile", 205, 126, 100 );
-        // Load the custom font
-        customFont.load().then((font) => {
-            document.fonts.add(font);
-            const fontFamily = 'CustomFont';
-            const fontSize = '9px';
-            context.font = `${fontSize} ${fontFamily}`;
-            context1.fillText("Scan with Lucy Mobile", 205, 126, 100);
-        });
-        inputRef1.current.addEventListener('input', handleInputChange);
-        inputRef2.current.addEventListener('input', handleInputChange);
-        return () => {
-            inputRef1.current.removeEventListener('input', handleInputChange);
-            inputRef2.current.removeEventListener('input', handleInputChange);
-        };
-    }, []);
+    const [displayText, setDisplayText] = react_1.useState('');
+    const [displayText1, setDisplayText1] = react_1.useState('');
+    const handleTextChange = (newText) => {
+        setDisplayText(newText);
+    };
+    const handleTextChange1 = (newText) => {
+        setDisplayText1(newText);
+    };
     const handleDownloadImage = () => {
         const container = containerRef.current;
-        html2canvas_1.default(container)
+        html2canvas_1.default(container, { useCORS: true })
             .then((canvas) => {
             const dataUrl = canvas.toDataURL('image/png');
             const link = document.createElement('a');
@@ -22158,7 +22075,7 @@ const TextCanvasComponent = () => {
     };
     const handleDownloadPDF = () => {
         const container = containerRef.current;
-        html2canvas_1.default(container)
+        html2canvas_1.default(container, { useCORS: true })
             .then((canvas) => {
             const imageData = canvas.toDataURL('image/jpeg', 1.0);
             const pdf = new jspdf_1.default();
@@ -22173,21 +22090,21 @@ const TextCanvasComponent = () => {
     };
     return (react_1.default.createElement("div", { className: "canvas_widget" },
         react_1.default.createElement("div", { className: "canvas_widget-lft" },
-            react_1.default.createElement("div", { className: "input-content" },
-                react_1.default.createElement("ul", null,
-                    react_1.default.createElement("li", null,
-                        react_1.default.createElement("label", null, "First Label"),
-                        react_1.default.createElement("input", { type: "text", ref: inputRef1, placeholder: " " })),
-                    react_1.default.createElement("li", null,
-                        react_1.default.createElement("label", null, "Second Label"),
-                        react_1.default.createElement("input", { type: "text", ref: inputRef2, placeholder: " " }))))),
-        react_1.default.createElement("div", { className: "canvas_widget-rgt", ref: containerRef },
-            react_1.default.createElement("canvas", { id: "canvas", ref: canvasRef }, " ")),
-        react_1.default.createElement("div", { className: 'canvas_bottom' },
-            react_1.default.createElement("button", { className: 'download-canvas-img', onClick: handleDownloadImage }, "Download Canvas"),
-            react_1.default.createElement("button", { className: 'download-canvas-pdf', onClick: handleDownloadPDF }, "Download Canvas as PDF"))));
+            react_1.default.createElement(textBoxComponent_1.default, { onTextChange: handleTextChange, onTextChange1: handleTextChange1 })),
+        react_1.default.createElement("div", { className: "canvas_widget-rgt" },
+            react_1.default.createElement("div", { id: "canvas", ref: containerRef },
+                react_1.default.createElement("div", { className: "canvas-lft" },
+                    react_1.default.createElement("h3", null, displayText),
+                    react_1.default.createElement("p", null, displayText1)),
+                react_1.default.createElement("div", { className: "canvas-rgt" },
+                    react_1.default.createElement("div", { className: "qr_pict" }),
+                    react_1.default.createElement("div", { className: "mobile_scan" },
+                        react_1.default.createElement("img", { src: "https://static.iviva.com/images/scan-lucy-mobile.png", alt: "Logo" }))))),
+        showDownloadButtons && (react_1.default.createElement("div", { className: "canvas_bottom" },
+            react_1.default.createElement("button", { className: "download-canvas-img", onClick: handleDownloadImage }, "Download Canvas"),
+            react_1.default.createElement("button", { className: "download-canvas-pdf", onClick: handleDownloadPDF }, "Download Canvas as PDF")))));
 };
-exports.default = TextCanvasComponent;
+exports.default = CanvasComponent;
 
 
 /***/ }),
@@ -22212,7 +22129,7 @@ __webpack_require__(/*! ./styles.scss */ "./src/styles.scss");
 const canvasComponent_1 = __importDefault(__webpack_require__(/*! ./canvasComponent */ "./src/canvasComponent.tsx"));
 const Qr_widgetsWidget = (props) => {
     return (react_1.default.createElement(components_1.WidgetWrapper, null,
-        react_1.default.createElement(canvasComponent_1.default, null)));
+        react_1.default.createElement(canvasComponent_1.default, { showDownloadButtons: true })));
 };
 /**
  * Register as a Widget
@@ -22223,9 +22140,11 @@ uxp_1.registerWidget({
     configs: {
         layout: {
             w: 16,
-            h: 12,
-            minH: 12,
-            minW: 12
+            h: 14,
+            minH: 13,
+            minW: 14,
+            maxW: 16,
+            maxH: 14,
         }
     }
 });
@@ -22279,6 +22198,63 @@ var update = api(content, options);
 
 
 module.exports = content.locals || {};
+
+/***/ }),
+
+/***/ "./src/textBoxComponent.tsx":
+/*!**********************************!*\
+  !*** ./src/textBoxComponent.tsx ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const react_1 = __importStar(__webpack_require__(/*! react */ "react"));
+const TextBoxComponent = ({ onTextChange, onTextChange1 }) => {
+    const [text, setText] = react_1.useState("");
+    const handleChange = (event) => {
+        const newText = event.target.value;
+        setText(newText);
+        onTextChange(newText);
+    };
+    const [text1, setText1] = react_1.useState("");
+    const handleChange1 = (event) => {
+        const newText = event.target.value;
+        setText1(newText);
+        onTextChange1(newText);
+    };
+    return (react_1.default.createElement("div", { className: "input-content" },
+        react_1.default.createElement("ul", null,
+            react_1.default.createElement("li", null,
+                react_1.default.createElement("label", null, "First Label"),
+                react_1.default.createElement("input", { type: "text", value: text, onChange: handleChange })),
+            react_1.default.createElement("li", null,
+                react_1.default.createElement("label", null, "Second Label"),
+                react_1.default.createElement("input", { type: "text", value: text1, onChange: handleChange1 })))));
+};
+exports.default = TextBoxComponent;
+
 
 /***/ }),
 

@@ -3,9 +3,7 @@ import { registerWidget, registerLink, registerUI, IContextProvider, } from './u
 import { TitleBar, FilterPanel, WidgetWrapper } from "uxp/components";
 import './styles.scss';
 
-import TextCanvasComponent from './canvasComponent';
-
-
+import CanvasComponent from './canvasComponent'; 
   
 
 interface IWidgetProps {
@@ -16,10 +14,8 @@ interface IWidgetProps {
 const Qr_widgetsWidget: React.FunctionComponent<IWidgetProps> = (props) => { 
       
     return (
-        <WidgetWrapper>  
-
-             <TextCanvasComponent/>   
-
+        <WidgetWrapper>   
+             <CanvasComponent showDownloadButtons={true} />  
         </WidgetWrapper>
     )
 };
@@ -35,9 +31,11 @@ registerWidget({
     configs: {
         layout: {
             w: 16,
-            h: 12,
-            minH: 12,
-            minW: 12
+            h: 14,
+            minH: 13,
+            minW: 14,
+            maxW: 16,
+            maxH: 14,
         }
     }
 });

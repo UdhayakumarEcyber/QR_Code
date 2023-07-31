@@ -4,6 +4,9 @@ import { TitleBar, FilterPanel, WidgetWrapper } from "uxp/components";
 import './styles.scss';
 
 import CanvasComponent from './canvasComponent'; 
+
+
+import Example from './testUdhaya'; 
   
 
 interface IWidgetProps {
@@ -17,6 +20,14 @@ const Qr_widgetsWidget: React.FunctionComponent<IWidgetProps> = (props) => {
         <WidgetWrapper>   
              <CanvasComponent showDownloadButtons={true} />  
         </WidgetWrapper>
+
+
+        //  <WidgetWrapper>  
+        //         <TitleBar title='My Test Widget'> </TitleBar>
+        //       <Example /> 
+        //  </WidgetWrapper>
+
+       
     )
 };
  

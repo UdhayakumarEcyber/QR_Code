@@ -49,8 +49,7 @@ const CanvasComponent: React.FC<CanvasComponentProps> = ({ showDownloadButtons }
         const pdfWidth = pdf.internal.pageSize.getWidth();
         const pdfHeight = pdf.internal.pageSize.getHeight();
 
-        // pdf.addImage(imageData, 'JPEG', 0, 0, pdfWidth, pdfHeight);
-        pdf.addImage(imageData, 'JPEG', 40, 20, 130, 110);
+        pdf.addImage(imageData, 'JPEG', 0, 0, pdfWidth, pdfHeight);
         pdf.save('canvas_image.pdf');
       })
       .catch((error) => {
@@ -65,12 +64,10 @@ const CanvasComponent: React.FC<CanvasComponentProps> = ({ showDownloadButtons }
       </div>
 
       <div className="canvas_widget-rgt">
-
-
-        <div id="canvas" ref={containerRef} >
+        <div id="canvas" ref={containerRef}>
           <div className="canvas-lft">
-            <h3>{displayText}  <span>{displayText1}</span></h3>
-           
+            <h3>{displayText}</h3>
+            <p>{displayText1}</p>
           </div>
 
           <div className="canvas-rgt">
@@ -80,8 +77,6 @@ const CanvasComponent: React.FC<CanvasComponentProps> = ({ showDownloadButtons }
                 <img src="https://static.iviva.com/images/scan-lucy-mobile.png" alt="Logo"></img>  
             </div>
           </div>
-
-
         </div>
       </div>
 
